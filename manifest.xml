@@ -17,7 +17,7 @@
 <project path="packages/apps/contacts" name="platform_packages_apps_Contacts" remote="calyx" revision="android15-qpr2" />
 <project path="packages/apps/calendar" name="platform_frameworks_opt_calendar" remote="calyx" revision="android15-qpr2" />
 
-<project path="packages/apps/seedvault" name="seedvault" remote="seedvault" revision="15-5.6" />
+<project path="packages/apps/seedvault" name="seedvault" remote="seedvault" revision="19228d6616ab4322b2fc046d4ce27aad287aa3d0" />
 
 <project path="device/phh/treble" name="device_phh_treble" remote="td" revision="android-15.0" />
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="td" revision="pie" />
