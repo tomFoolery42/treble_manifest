@@ -3,15 +3,29 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="td" fetch="https://github.com/TrebleDroid/" />
 <remote name="github" fetch="https://github.com/" />
+<remote name="vbbot" fetch="https://github.com/vbbot/" />
+<remote name="calyx" fetch="https://github.com/CalyxOS/" />
+<remote name="seedvault" fetch="https://github.com/seedvault-app/" />
+
+<project path="vendor/hibreak" name="hibreak_pro_patches" remote="vbbot" revision="main" />
+
+<project path="packages/apps/fdroid" name="calyx-fdroid-repo" remote="calyx" revision="main" />
+<project path="devices/calyxos/telephony" name="platform_packages_services_Telephony" remote="calyx" revision="android15-qpr2" />
+<project path="devices/calyxos/permissions" name="platform_packages_modules_Permission" remote="calyx" revision="android15-qr2" />
+<project path="packages/apps/messages" name="platform_packages_apps_Messaging" remote="calyx" revision="android15-qr2" />
+<project path="packages/apps/dialer" name="platform_packages_apps_Dialer" remote="calyx" revision="android15-qr2" />
+<project path="packages/apps/contacts" name="platform_packages_apps_Contacts" remote="calyx" revision="android15-qr2" />
+<project path="packages/apps/calendar" name="platform_packages_opt_calendar" remote="calyx" revision="android15-qr2" />
+
+<project path="packages/apps/seedvault" name="seedvault" remote="seedvault" revision="15-5.6" />
 
 <project path="device/phh/treble" name="device_phh_treble" remote="td" revision="android-15.0" />
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="td" revision="pie" />
+<project path="vendor/interfaces" name="vendor_interfaces" remote="td" revision="android-15.0" />
 
 <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
-<project path="vendor/interfaces" name="vendor_interfaces" remote="td" revision="android-15.0" />
 <project path="vendor/lptools" name="vendor_lptools" remote="phh" revision="master" />
-
-
+<project path="packages/apps/phh_assistant" name="PhhAssistant2" remote="phh" revision="master" />
 <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
 
 <project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="github" revision="master" />
